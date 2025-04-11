@@ -73,7 +73,7 @@ As noted earlier, no statistically significant differences were observed between
 # Recommendations
 - **Optimal storage:** 4°C anaerobic for Heterotrigona itama honey.
 - **LAB preservation:** 25°C aerobic for up to 4 weeks to prevent over-acidification.
-- **Bacillus control:* 4°C aerobic to extend shelf life.
+- **Bacillus control:** 4°C aerobic to extend shelf life.
 
 # Limitations
 - **Variability:** Microbial data is inherently variable; larger sample sizes or longer storage durations could strengthen findings.
