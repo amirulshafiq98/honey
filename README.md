@@ -1,3 +1,5 @@
+![image](https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/honey-1296x728-header.jpg?w=1155&h=1528)
+
 
 # Project Background
 During my internship in Thailand, I was tasked with recommending optimal storage conditions for local bee farmers to minimize bacterial growth in honey. To achieve this, I stored honey under different conditions (anaerobic/aerobic) at varying temperatures (4°C, 25°C, 37°C) for six weeks. While a lower bacterial count is generally desirable, honey contains beneficial bacteria like lactic acid bacteria (LAB), which contribute to its natural preservative properties against pathogens. This challenge inspired me to develop a data-driven approach to determine the best storage conditions for the farmers.
