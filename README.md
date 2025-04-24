@@ -2,14 +2,14 @@
 
 
 # Project Background
-During my internship in Thailand, I was tasked with recommending optimal storage conditions for local bee farmers to minimize bacterial growth in honey. To achieve this, I stored honey under different conditions (anaerobic/aerobic) at varying temperatures (4°C, 25°C, 37°C) for six weeks. While a lower bacterial count is generally desirable, honey contains beneficial bacteria like lactic acid bacteria (LAB), which contribute to its natural preservative properties against pathogens. This challenge inspired me to develop a data-driven approach to determine the best storage conditions for the farmers.
+During my internship in Thailand, I was tasked with recommending optimal storage conditions for local bee farmers to minimise bacterial growth in honey. To achieve this, I stored honey under different conditions (anaerobic/aerobic) at varying temperatures (4°C, 25°C, 37°C) for six weeks. While a lower bacterial count is generally desirable, honey contains beneficial bacteria like lactic acid bacteria (LAB), which contribute to its natural preservative properties against pathogens. This challenge inspired me to develop a data-driven approach to determine the best storage conditions for the farmers.
 
 # Data Structure
-The dataset was organized by condition (anaerobic/aerobic) and temperature, tracking bacterial counts (lactic acid bacteria, Bacillus, yeast, and mold) over the six-week period. Below is an how the data is structured in Excel:
+The dataset was organized by condition (anaerobic/aerobic) and temperature, tracking bacterial counts (lactic acid bacteria, Bacillus, yeast, and mould) over the six-week period. Below is an how the data is structured in Excel:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c19d9c37-ba0f-4a1f-ab66-acdfbd53106d" hspace= "10"> 
-  <img src="https://github.com/user-attachments/assets/672f2489-0fd2-4107-912b-6736e9b55518" hspace= "10">
+  <img src="https://github.com/user-attachments/assets/c19d9c37-ba0f-4a1f-ab66-acdfbd53106d" hspace= "20"> 
+  <img src="https://github.com/user-attachments/assets/672f2489-0fd2-4107-912b-6736e9b55518" hspace= "20">
 </p>
 
 # Executive Summary
@@ -51,31 +51,51 @@ The lowest average change in bacterial counts guided the storage recommendations
 ![Sisth](https://github.com/user-attachments/assets/404c3ae5-83b8-4200-b5f9-3f246ee505ea)
 ****
 
-### Statistical Analysis:
+### Descriptive Analysis:
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/74a383b8-a982-428c-9b2a-dac068f6f616">
-  <img src="https://github.com/user-attachments/assets/cf867963-619a-4ecb-bfef-cd7adc399705">
+  <img src="https://github.com/user-attachments/assets/568e732a-aace-4501-88f6-bc00e08c8919" hspace = '20'>
+  <img src="https://github.com/user-attachments/assets/a973f829-2b5b-4240-a3bc-2e5514808659" hspace = '20'>
+</p>
+
+This is the overview of the data using descriptive statistics.
+
+### Two-Way ANOVA Analysis:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c61a0ce0-95d0-4cff-a343-c7cf14c6270b" hspace = '20'>
+  <img src="https://github.com/user-attachments/assets/446e37dd-3b71-41e4-95d9-91a8b837f7cd" hspace = '20'>
+  <img src="https://github.com/user-attachments/assets/26d6a734-1620-44f8-af7c-1f16577b987b" hspace = '20'>
 </p>
 
 As noted earlier, no statistically significant differences were observed between storage conditions. The null hypothesis was retained for all temperature and condition combinations.
 
 ### Trend Visualisation:
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/ebce5715-d68c-40ad-aaaf-592ce85a7a09" hspace="10">
-    <img src="https://github.com/user-attachments/assets/9f9fc816-1e7a-49ab-839a-74dc8f853932" hspace="10">
-    <img src="https://github.com/user-attachments/assets/4f7dd6a4-26b0-4ddb-b808-a527919040e6" hspace="10">
+    <img src="https://github.com/user-attachments/assets/ebce5715-d68c-40ad-aaaf-592ce85a7a09" hspace="20">
+    <img src="https://github.com/user-attachments/assets/9f9fc816-1e7a-49ab-839a-74dc8f853932" hspace="20">
+    <img src="https://github.com/user-attachments/assets/4f7dd6a4-26b0-4ddb-b808-a527919040e6" hspace="20">
 </p>
 
-- **Yeast and Mold:** At 25°C aerobic, changes were minimal up to Day 7, but by Day 35, 25°C anaerobic showed the smallest deviation from Day 0. The highest yeast/mold count occurred at 4°C aerobic on Day 35.
-- **LAB:** The largest deviation from Day 0 occurred at 37°C anaerobic on Day 21. Both 25°C conditions maintained the lowest LAB changes up to Day 28.
-- **Bacillus:** 4°C storage minimized growth across all weeks. Day 28 saw peak Bacillus counts at 37°C anaerobic, while 25°C aerobic had the smallest change from Day 0 after Day 21.
+- **Yeast and Mold:** At 25°C aerobic, changes were minimal up to Day 7, but by Day 35, 25°C anaerobic showed the smallest deviation from Day 0. The highest yeast/mold count occurred at 4°C aerobic on Day 35
+- **LAB:** The largest deviation from Day 0 occurred at 37°C anaerobic on Day 21. Both 25°C conditions maintained the lowest LAB changes up to Day 28
+- **Bacillus:** 4°C storage minimized growth across all weeks. Day 28 saw peak Bacillus counts at 37°C anaerobic, while 25°C aerobic had the smallest change from Day 0 after Day 21
+
+### Overall Best Storage Condition:
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/f2ae893d-7ef4-4f89-a7ac-61f36e547295">
+</p>
+
+- **Yeast and Mold:** At 25°C aerobic, changes were minimal up to Day 7, but by Day 35, 25°C anaerobic showed the smallest deviation from Day 0. The highest yeast/mold count occurred at 4°C aerobic on Day 35
+- **LAB:** The largest deviation from Day 0 occurred at 37°C anaerobic on Day 21. Both 25°C conditions maintained the lowest LAB changes up to Day 28
+- **Bacillus:** 4°C storage minimized growth across all weeks. Day 28 saw peak Bacillus counts at 37°C anaerobic, while 25°C aerobic had the smallest change from Day 0 after Day 21
 
 # Recommendations
-- **Optimal storage:** 4°C anaerobic for Heterotrigona itama honey.
-- **LAB preservation:** 25°C aerobic for up to 4 weeks to prevent over-acidification.
-- **Bacillus control:** 4°C aerobic to extend shelf life.
+- **Optimal storage:** 4°C anaerobic for *Heterotrigona itama* honey
+- **LAB preservation:** 25°C aerobic for up to 4 weeks to prevent over-acidification
+- **Bacillus control:** 4°C aerobic to extend shelf life
 
 # Limitations
-- **Variability:** Microbial data is inherently variable; larger sample sizes or longer storage durations could strengthen findings.
-- **Extended modeling:** Predictive models (e.g., ARIMA) could forecast long-term microbial trends beyond six weeks.
-- **Additional factors:** Future studies could integrate pH, water activity, and sugar content for more comprehensive recommendations.
+- **Variability:** Microbial data is inherently variable; larger sample sizes or longer storage durations could strengthen findings
+- **Extended modeling:** Predictive models (e.g., ARIMA) could forecast long-term microbial trends beyond six weeks
+- **Additional factors:** Future studies could integrate pH, water activity, and sugar content for more comprehensive recommendations
